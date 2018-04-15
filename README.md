@@ -1,3 +1,12 @@
+# Deprecated:
+This can only work with OpenSSL 1.1.1-dev(TLS 1.3 draft 18 or 19).
+
+The same feature can be implemented by the configuration command `Options:+PrioritizeChacha` on later version. (from 1.1.1-pre1 on)
+
+This feature can be backported to OpenSSL 1.1.0 by applying [https://github.com/Hardrain980/openssl-1.1.0-patch](https://github.com/Hardrain980/openssl-1.1.0-patch)
+
+------
+
 # CHACHA20-POLY1305 preference patch for OpenSSL 1.1.1-dev
 
 #### The original version of patch is from CloudFlare, at [https://github.com/cloudflare/sslconfig](https://github.com/cloudflare/sslconfig)
